@@ -1,12 +1,12 @@
-// Create element through JS
+// // Create element through JS
 
-// const { createElement } = require("react");
+// // const { createElement } = require("react");
 
-// const header1 = document.createElement('h1');
-// header1.innerText = "Hello There...";
-// header1.style.backgroundColor = "black";
-// header1.style.fontSize = "30px";
-// header1.style.color = "pink";
+// // const header1 = document.createElement('h1');
+// // header1.innerText = "Hello There...";
+// // header1.style.backgroundColor = "black";
+// // header1.style.fontSize = "30px";
+// // header1.style.color = "pink";
 
 
 // const header2 = document.createElement('h2');
@@ -85,3 +85,4 @@ ReactDOM.render(Ul, document.getElementById('root'));
 
 
 // React is not exactly but can be called as a JS library used to perform different tasks, by calling prefined functions from the library
+// React is JavaScript object.
