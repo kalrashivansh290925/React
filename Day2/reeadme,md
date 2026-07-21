@@ -1,0 +1,17 @@
+version: xx.yy.zz
+
+Major.minor.patch
+
+Patch - Bug corrected, koi asar nhi padta update hone ke baad bhi 
+minor - minor update, koi asar nhi padta update hone ke baad bhi 
+major - remarkable change, prevuious code can become useless, malfunctioning
+
+version: "^2.16.4" , ^ "Caret" tells that is can accept only minor and patch updates and ~ "till date" takes only patch updates, Agar major vale updates pe janaa hai to intensionally batana padega 
+
+package-lock.json has got exact information of the version used in the project. If the project is run after two months, package-lock.json remembers which version was used in making.
+
+If we have to share a project, node modules can not be shared to github, it is large in size, rather package.json and package-lock.json can be shared and after sharing in terminal, "npm install" it'll install the node modules package itself
+
+
+
+CONCEPTUAL VIDEO, WATCH LAST 20 MINUTES AGAIN.
