@@ -15,3 +15,33 @@ If we have to share a project, node modules can not be shared to github, it is l
 
 
 CONCEPTUAL VIDEO, WATCH LAST 20 MINUTES AGAIN.
+
+
+
+app.js comments
+
+// import statement are in latest JS
+
+// ReactDOM.render(element,document.getElementById('root'));  Doesn't work directly if using react 18
+
+// render basically means on clicking a button, UI changes
+
+// Dynamic data - changes freaquently, brought directly from the main server. like preference, data, likes etc. and the user for the first time when requires data from the main server, The CDN, close servers brings the data to the user and stores in themselves
+
+// Static data - delivered by the closest servers, CDNs.
+
+// Multiple elements can be rendered by constructing an array of the required elements
+
+// Through JSX we can write html syntax in JS
+
+// Bundler: Helps to optimize the code, and bundle the useful code. --- Webpack, parcel
+
+// npm init
+
+// npm install parcel
+
+// npm : Node Package Manager(bs keh sakte hain)
+
+// npm install react, npm install react-dom
+
+// package.json has all the information abouit dependencies
